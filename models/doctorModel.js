@@ -11,8 +11,8 @@ const doctorSchema=mongoose.Schema({
     fee:{type:Number},
 })
 
-const DoctorModel=mongoose.model("doctor",doctorSchema)
+const Doctor=mongoose.model("doctor",doctorSchema)
 
 module.exports={
-    DoctorModel
+    Doctor
 }
